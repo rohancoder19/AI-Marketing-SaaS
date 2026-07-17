@@ -337,92 +337,57 @@ With the root-level `vercel.json` configuration, you can deploy both the fronten
 
 # 📷 Screenshots
 
-## 🏠 Home Page
+# 🤖 AI Marketing Agent
 
-_✨ Features
-📱 Social Media Post Generator
+An all-in-one, AI-powered marketing tool that leverages **FastAPI** and **React** alongside the **Groq API (Llama 3.3 70B Versatile)** to generate high-converting social media posts, professional emails, SEO-friendly product descriptions, and multi-platform ad copies.
 
-Generate engaging social media posts for multiple platforms.
+---
 
-Supports
-Instagram
-LinkedIn
-Facebook
-Twitter (X)
-Generates
-Captions
-Hashtags
-Emojis
-Call-To-Action (CTA)
-Multiple tone options
-Platform-specific formatting
-📧 AI Email Generator
+## 🏠 Home Page Features
 
-Create professional marketing emails instantly.
+### 📱 Social Media Post Generator
+Generate engaging social media posts tailored for multiple platforms.
+* **Supported Platforms:** Instagram, LinkedIn, Facebook, Twitter (X)
+* **Outputs:** Captions, Hashtags, Emojis, and Call-To-Action (CTA) phrases.
+* **Customization:** Multiple tone options and platform-specific formatting.
 
-Generates
-Promotional Emails
-Product Launch Emails
-Welcome Emails
-Newsletter Emails
-Sales Emails
-Follow-up Emails
-Cold Outreach Emails
-Customization
-Tone
-Audience
-Email Length
-CTA
-Brand Voice
-🛍 AI Product Description Generator
+### 📧 AI Email Generator
+Create high-converting, professional marketing emails instantly.
+* **Supported Types:** Promotional, Product Launch, Welcome, Newsletters, Sales, Follow-up, and Cold Outreach.
+* **Customization:** Tone, Target Audience, Email Length, CTA, and Brand Voice.
 
-Generate SEO-friendly product descriptions.
+### 🛍 AI Product Description Generator
+Generate compelling, SEO-friendly descriptions to boost product sales.
+* **Features:** Product Highlights, SEO Optimization, Benefits, Key Features, Keyword Insertion, Bullet Points, and Long/Short description toggles.
 
-Features
-Product Highlights
-SEO Optimization
-Benefits
-Key Features
-Keywords
-Bullet Points
-Long & Short Description
-📢 AI Advertisement Generator
+### 📢 AI Advertisement Generator
+Generate persuasive ad copies optimized for various advertising networks.
+* **Supported Platforms:** Google Ads, Facebook Ads, Instagram Ads, LinkedIn Ads.
+* **Outputs:** Headlines, Primary Text, Descriptions, CTAs, Target Audience suggestions, and Marketing Hooks.
 
-Generate ad copy for multiple platforms.
+---
 
-Platforms
-Google Ads
-Facebook Ads
-Instagram Ads
-LinkedIn Ads
-Generates
-Headlines
-Primary Text
-Description
-CTA
-Target Audience
-Marketing Hooks
-🛠 Tech Stack
-Frontend
-React
-React Router
-Axios
-CSS3
-Responsive UI
-Backend
-FastAPI
-Pydantic
-Uvicorn
-AI
-Groq API
-Llama 3.3 70B Versatile
-Development Tools
-Python
-JavaScript
-Git
-GitHub
-VS Code
-📂 Project Structure
+## 🛠 Tech Stack
+
+### Frontend
+* **Core:** React, React Router
+* **Networking:** Axios
+* **Styling:** CSS3 (Fully Responsive UI)
+
+### Backend & AI
+* **Framework:** FastAPI
+* **Data Validation:** Pydantic
+* **Server:** Uvicorn
+* **LLM Engine:** Groq API (`llama-3.3-70b-versatile`)
+
+### Development Tools
+* Python, JavaScript, Git, GitHub, VS Code
+
+---
+
+## 📂 Project Structure
+
+```text
 AI-Marketing-Agent/
 │
 ├── backend/
@@ -451,55 +416,6 @@ AI-Marketing-Agent/
 │
 ├── README.md
 └── LICENSE
-⚙ Installation
-Clone Repository
-git clone https://github.com/yourusername/AI-Marketing-Agent.git
-
-cd AI-Marketing-Agent
-Backend Setup
-
-Create a virtual environment
-
-python -m venv venv
-
-Activate it
-
-Windows
-venv\Scripts\activate
-Linux / macOS
-source venv/bin/activate
-
-Install dependencies
-
-pip install -r requirements.txt
-
-Create a .env file
-
-Groq_API_Key=YOUR_GROQ_API_KEY
-
-Run backend
-
-uvicorn app.main:app --reload
-Frontend Setup
-cd frontend
-
-npm install
-
-npm run dev
-📡 API Endpoints
-Social Media
-POST /api/social-media/generate
-Email
-POST /api/email/generate
-Product Description
-POST /api/product-description/generate
-Advertisement
-POST /api/advertisement/generate
-📷 Screenshots
-
-Add screenshots here.
-
-Home Page
 
 Social Media Generator
 <img width="1731" height="843" alt="Screenshot 2026-07-16 233307" src="https://github.com/user-attachments/assets/7b6cd962-f701-49ff-a83a-b3bad004a63e" />
@@ -509,13 +425,6 @@ Social Media Generator
 
 
 Email Generator
-
-
-
-
-
-
-
 
 
 Advertisement Generator
