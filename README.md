@@ -376,11 +376,11 @@ This project is licensed under the **MIT License**.
 
 | Name | Role |
 |------|------|
-| **Priyansu Chatterjee** | Full Stack Developer |
-| **Rohan Majumdar** | AI & Generative AI Developer |
-| **Soumalya Ghosh** | MERN Stack Developer |
-| **Dipa Dey** | Full Stack Developer |
-| **Zufishan Rais** | Developer |
+| **Priyansu Chatterjee** | Backend , Generative AI |
+| **Rohan Majumdar** | AI Tools Expert |
+| **Soumalya Ghosh** | Generative AI |
+| **Dipa Dey** | Research and Documentation |
+| **Zufishan Rais** | React Developer |
 
 ---
 
