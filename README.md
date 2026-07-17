@@ -139,7 +139,7 @@ Generate high-converting advertisements.
 
 # 📂 Project Structure
 
-```
+```text
 AI-Marketing-Agent/
 │
 ├── backend/
@@ -178,7 +178,6 @@ AI-Marketing-Agent/
 
 ```bash
 git clone https://github.com/yourusername/AI-Marketing-Agent.git
-
 cd AI-Marketing-Agent
 ```
 
@@ -234,13 +233,13 @@ uvicorn app.main:app --reload
 
 Backend runs at:
 
-```
+```text
 http://127.0.0.1:8000
 ```
 
 Swagger Documentation:
 
-```
+```text
 http://127.0.0.1:8000/docs
 ```
 
@@ -258,7 +257,7 @@ npm run dev
 
 Frontend runs at:
 
-```
+```text
 http://localhost:5173
 ```
 
