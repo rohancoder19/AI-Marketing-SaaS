@@ -441,10 +441,27 @@ Add screenshots here.
 Home Page
 
 Social Media Generator
+<img width="1731" height="843" alt="Screenshot 2026-07-16 233307" src="https://github.com/user-attachments/assets/7b6cd962-f701-49ff-a83a-b3bad004a63e" />
+
+<img width="1672" height="754" alt="Screenshot 2026-07-16 233620" src="https://github.com/user-attachments/assets/df32d50e-79e5-4713-88ef-7e763d685d31" />
+<img width="1672" height="754" alt="Screenshot 2026-07-16 233620" src="https://github.com/user-attachments/assets/e4477ffc-3caa-4486-9d98-d0aad86e53b4" />
+
 
 Email Generator
 
+
+
+
+
+
+
+
+
 Advertisement Generator
+
+
+<img width="1672" height="754" alt="Screenshot 2026-07-16 233620" src="https://github.com/user-attachments/assets/a86d9354-58e5-4f53-a442-c413b039fa7c" />
+
 
 Product Description Generator
 🔮 Future Improvements
