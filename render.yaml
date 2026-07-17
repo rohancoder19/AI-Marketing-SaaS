@@ -30,6 +30,6 @@ services:
         fromService:
           type: web
           name: ai-marketing-backend
-          property: url
+          property: host
       - key: VITE_GEMINI_API_KEY
         sync: false
