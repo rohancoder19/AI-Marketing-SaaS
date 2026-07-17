@@ -263,6 +263,67 @@ http://localhost:5173
 
 ---
 
+# 🚀 Deployment to Vercel
+
+The application is structured as a monorepo and can be deployed to Vercel either as a **single unified project** (simplest setup, no CORS or URL configuration needed) or as **two separate projects** (frontend and backend).
+
+> [!NOTE]
+> When naming your Vercel projects or repositories, ensure the names contain only lowercase letters, numbers, hyphens, and underscores (e.g., `ai-marketing-saas`). Spaces and uppercase characters are not allowed by Vercel/GitHub naming conventions.
+
+---
+
+## 📦 Option A: Unified Deployment (Single Project - Easiest)
+
+With the root-level `vercel.json` configuration, you can deploy both the frontend and backend under a single Vercel URL.
+
+1. Go to the [Vercel Dashboard](https://vercel.com/dashboard) and click **Add New** > **Project**.
+2. Import your GitHub repository.
+3. In the project configuration, leave the **Root Directory** as the default root (`/` or `./`).
+4. Expand **Environment Variables** and add the following:
+   - `DATABASE_URL`: Your MongoDB connection string (e.g., MongoDB Atlas).
+   - `GROQ_API_KEY`: Your Groq API key.
+   - `JWT_SECRET`: A secure random string for JWT token generation.
+   - `JWT_ALGORITHM`: `HS256`
+   - `ACCESS_TOKEN_EXPIRE_MINUTES`: `60`
+   - `VITE_GEMINI_API_KEY`: Your Gemini API key.
+   - *(Note: `VITE_API_BASE_URL` is not required for unified deployment, as the frontend dynamically falls back to the same-domain backend API).*
+5. Click **Deploy**.
+
+---
+
+## 🔀 Option B: Split Deployment (Two Separate Projects)
+
+### 1️⃣ Deploy the Backend (FastAPI)
+
+1. Go to the [Vercel Dashboard](https://vercel.com/dashboard) and click **Add New** > **Project**.
+2. Import your GitHub repository.
+3. In the project configuration:
+   - Set **Project Name** to a valid lowercase name (e.g., `ai-marketing-backend`).
+   - Set **Root Directory** to `backend`.
+   - Vercel will automatically detect `vercel.json` and configure the Python serverless environment.
+4. Expand **Environment Variables** and add the following:
+   - `DATABASE_URL`: Your MongoDB connection string (e.g., MongoDB Atlas).
+   - `GROQ_API_KEY`: Your Groq API key.
+   - `JWT_SECRET`: A secure random string for JWT token generation.
+   - `JWT_ALGORITHM`: `HS256`
+   - `ACCESS_TOKEN_EXPIRE_MINUTES`: `60`
+5. Click **Deploy**. Note down the deployment URL once completed (e.g., `https://ai-marketing-backend.vercel.app`).
+
+### 2️⃣ Deploy the Frontend (React + Vite)
+
+1. In the Vercel Dashboard, click **Add New** > **Project**.
+2. Import your GitHub repository again.
+3. In the project configuration:
+   - Set **Project Name** to a valid lowercase name (e.g., `ai-marketing-frontend`).
+   - Set **Root Directory** to `frontend`.
+   - Select **Vite** as the **Framework Preset**.
+4. Expand **Environment Variables** and add the following:
+   - `VITE_API_BASE_URL`: The URL of your deployed backend (e.g., `https://ai-marketing-backend.vercel.app`).
+   - `VITE_GEMINI_API_KEY`: Your Gemini API key.
+5. Click **Deploy**.
+
+---
+
 # 📡 API Endpoints
 
 | Feature | Endpoint |
