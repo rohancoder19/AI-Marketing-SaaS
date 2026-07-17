@@ -16,11 +16,15 @@
       "dest": "backend/app/main.py"
     },
     {
+      "src": "/(assets/.*|favicon\\.svg|icons\\.svg)",
+      "dest": "frontend/$1"
+    },
+    {
       "handle": "filesystem"
     },
     {
       "src": "/(.*)",
-      "dest": "/index.html"
+      "dest": "frontend/index.html"
     }
   ]
 }
