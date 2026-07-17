@@ -344,26 +344,31 @@ An all-in-one, AI-powered marketing tool that leverages **FastAPI** and **React*
 ---
 
 ## 🏠 Home Page Features
+![Aethera Landing Page](./screenshots/Screenshot%202026-07-17%20194127_2.jpg)
 
 ### 📱 Social Media Post Generator
 Generate engaging social media posts tailored for multiple platforms.
 * **Supported Platforms:** Instagram, LinkedIn, Facebook, Twitter (X)
 * **Outputs:** Captions, Hashtags, Emojis, and Call-To-Action (CTA) phrases.
 * **Customization:** Multiple tone options and platform-specific formatting.
+![Social Suite](./screenshots/Screenshot%202026-07-17%20194244_2.png)
 
 ### 📧 AI Email Generator
 Create high-converting, professional marketing emails instantly.
 * **Supported Types:** Promotional, Product Launch, Welcome, Newsletters, Sales, Follow-up, and Cold Outreach.
 * **Customization:** Tone, Target Audience, Email Length, CTA, and Brand Voice.
+![Email Engine](./screenshots/Screenshot%202026-07-17%20194258_2.png)
 
 ### 🛍 AI Product Description Generator
 Generate compelling, SEO-friendly descriptions to boost product sales.
 * **Features:** Product Highlights, SEO Optimization, Benefits, Key Features, Keyword Insertion, Bullet Points, and Long/Short description toggles.
+![Product Copy AI](./screenshots/Screenshot%202026-07-17%20194312_2.png)
 
 ### 📢 AI Advertisement Generator
 Generate persuasive ad copies optimized for various advertising networks.
 * **Supported Platforms:** Google Ads, Facebook Ads, Instagram Ads, LinkedIn Ads.
 * **Outputs:** Headlines, Primary Text, Descriptions, CTAs, Target Audience suggestions, and Marketing Hooks.
+![Ad Campaign Builder](./screenshots/Screenshot%202026-07-17%20194334_2.png)
 
 ---
 
