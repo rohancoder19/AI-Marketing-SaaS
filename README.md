@@ -473,57 +473,12 @@ Create a new feature branch.
 Commit your changes.
 Push the branch.
 Open a Pull Request.
+
 📄 License
 
 This project is licensed under the MIT License.
 
-👨‍💻 Author
 
-Priyansu Chatterjee
-
-Full Stack Developer
-AI & Generative AI Enthusiast
-MERN Stack Developer
-⭐ Support
-
-If you found this project helpful:
-
-⭐ Star the repository
-🍴 Fork it
-🐛 Report issues
-💡 Suggest new features
-🎯 Why AI Marketing Agent?
-
-AI Marketing Agent combines multiple AI-powered marketing tools into one unified platform, enabling users to create high-quality marketing content quickly and consistently. With a modern React frontend, FastAPI backend, and Groq-powered LLMs, it delivers fast, scalable, and production-ready AI content generation for social media, email marketing, product descriptions, and advertising.
-
----## Home Page
-
-
-## 📱 Social Media Generator
-
-
-
----
-
-## 📧 Email Generator
-
-_Add Screenshot_
-<img width="1861" height="876" alt="Screenshot 2026-07-16 224530" src="https://github.com/user-attachments/assets/f49d9f71-dd9f-4fb3-ba65-0ffddcaf23ee" />
-
-
----
-
-## 📢 Advertisement Generator
-
-_Add Screenshot_
-
----
-
-## 🛍 Product Description Generator
-
-_Add Screenshot_
-
----
 
 # 🎯 Use Cases
 
