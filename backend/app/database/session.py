@@ -1,14 +1,14 @@
 import certifi
-from pymongo import AsyncMongoClient
+from motor.motor_asyncio import AsyncIOMotorClient
 from app.config.config import settings
 
 class Database:
-    client: AsyncMongoClient = None
+    client: AsyncIOMotorClient = None
 
 db = Database()
 
 async def init_db():
-    db.client = AsyncMongoClient(settings.DATABASE_URL, tlsCAFile=certifi.where())
+    db.client = AsyncIOMotorClient(settings.DATABASE_URL, tlsCAFile=certifi.where())
     # We will initialize beanie models in main.py
 
 async def close_db():
